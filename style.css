@@ -1,0 +1,48 @@
+body {
+		text-align: center;
+		background: url(http://a.dilcdn.com/bl/wp-content/uploads/sites/2/2015/01/Clouds_Toy-Story.jpg);
+		background-size: cover;
+		background-position: center;
+		color: yellow;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		font-family: helvetica;
+		}
+h1	{
+		font-size: 70px;
+		}
+img {
+		margin: 0px 40px 0px 0px;
+		}
+p   {
+		font-size: 22px;
+		}
+a {
+		color: white;
+		}
+ul  {
+		padding: 10px;
+		background: rgba(0, 0, 0, 0.5);
+		}
+li  {
+		display: inline;
+		padding: 0px 10px 0px 10px;
+		}
+input {
+		border: 0;
+		padding: 10px;
+		font-size: 18px;
+		}
+article	{
+		max-width: 500px;
+		padding: 20px;
+		margin: 0 auto;
+		}
+@media (max-width: 500px) {
+			h1	{
+			font-size: 36px;
+			}
+			li  {
+			display: block;
+			padding: 5px;
+			}
+		}
